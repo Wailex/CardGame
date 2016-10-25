@@ -24,6 +24,14 @@ class File
         return description
     }
     
+    func getBackImage() -> UIImage
+    {
     
-    
+        return backImage
+        
+    }
+    func isFaceup()-> Bool
+    {
+        return isFaceUp
+    }
 }
