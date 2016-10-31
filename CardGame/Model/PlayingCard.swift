@@ -9,6 +9,13 @@
 import UIKit
 
 Class PlayingCard : Card
+
 {
-    
-}
+
+    private var rant : Int
+    {
+            get
+    }
+        return self.rank
+    }
+]

@@ -11,6 +11,8 @@ import UIKit
 class File
 {
     private var backImage : UIImage
+    
+    
     private var isFaceUp : Bool
     
     init()
@@ -30,8 +32,23 @@ class File
         return backImage
         
     }
+    func setBackImage(newImage : UIImage)
+    {
+    backImage = newImage
+    }
+    
+    
+    
     func isFaceup()-> Bool
     {
         return isFaceUp
     }
+    func setIsFacing(isFaceUp : Bool) -> Void
+    {
+        self.isFaceUp = isFaceUp
+    }
+
+
+
+
 }
